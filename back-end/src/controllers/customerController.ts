@@ -5,11 +5,11 @@ import type {
 } from "express";
 
 
-import * as service from "../services/customerService.js";
+import * as service from "../services/customerService";
 
 
-import type { CreateCustomerDto } from "../dto/customer/createCustomerDto.js";
-import type { UpdateCustomerDto } from "../dto/customer/updateCustomerDto.js";
+import type { CreateCustomerDto } from "../dto/customer/createCustomerDto";
+import type { UpdateCustomerDto } from "../dto/customer/updateCustomerDto";
 
 
 type CustomerIdParams = {
